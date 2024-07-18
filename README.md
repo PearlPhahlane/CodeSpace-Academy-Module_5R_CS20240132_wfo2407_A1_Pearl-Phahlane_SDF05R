@@ -13,6 +13,9 @@ For the buttons in this project, I utilized CSS animations triggered on hover to
 
 - **Button 3 (Shake)**: This button shakes and changes color three times on hover, creating a visually engaging effect. Implementing the multiple color changes within the shake animation was a learning experience in managing CSS animations.
 
+- **HTML Adjustment Section**: Added to highlight a specific correction made in the usage example.
+- **Usage Example**: Updated to include `type="button"` attribute in each button element for clarity and correctness.
+
 ## Learning Goals
 
 I successfully achieved my goals of mastering CSS transitions and animations to create effective and engaging button effects. This project has strengthened my understanding of CSS animation principles and their practical application.
