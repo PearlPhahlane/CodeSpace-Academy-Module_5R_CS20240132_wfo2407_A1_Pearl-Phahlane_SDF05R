@@ -70,4 +70,6 @@ p {
 }
 
 /*btn-2*/
-
+.btn-2:hover {
+    animation: flipColor 0.5s forwards;
+}
