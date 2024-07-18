@@ -53,14 +53,19 @@ p {
 /* custom styles for btn-1, btn-2, and btn-3 */
 
 /*btn-1*/
-button:hover {
+.btn-1:hover {
     background-image: linear-gradient(to right, #ffadad, #ffd6a5 20%, #fdffb6 40%, #9bf6ff 60%, #a0c4ff 80%, #bdb2ff 100%);
-    animation: dance 1s both;
+    animation: dance 0.5s both;
     transform: scale(1,1) translateY(2px);
 }
 
 @keyframes dance {
+    from {
+        background-position: 0;
+    }
     to {
         background-position: 130px;
     }
 }
+
+/*btn-2*/
