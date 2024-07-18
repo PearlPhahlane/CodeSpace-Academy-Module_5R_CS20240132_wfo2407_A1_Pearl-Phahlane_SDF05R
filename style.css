@@ -80,8 +80,7 @@ p {
 
 .btn-2:hover {
     animation: jump 0.5s ease;
-    background: #9395d3;
-       
+    background: #9395d3;   
 }
 
 /*btn-2 animation*/
@@ -93,6 +92,7 @@ p {
         transform: translateY(-10px);
     }
 }
+
 /*btn-3*/
 .btn-3 {
     background: #8b008b;
