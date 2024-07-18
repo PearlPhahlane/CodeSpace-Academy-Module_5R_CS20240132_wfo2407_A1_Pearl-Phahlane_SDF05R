@@ -53,6 +53,10 @@ p {
 /* custom styles for btn-1, btn-2, and btn-3 */
 
 /*btn-1*/
+.btn {
+    background: #ffadad
+}
+
 .btn-1:hover {
     background-image: linear-gradient(to right, #ffadad, #ffd6a5 20%, #fdffb6 40%, #9bf6ff 60%, #a0c4ff 80%, #bdb2ff 100%);
     animation: dance 0.5s both;
@@ -70,6 +74,10 @@ p {
 }
 
 /*btn-2*/
+.btn-2 {
+    background: #6a5acd;
+}
+
 .btn-2:hover {
     animation: jump 0.5s ease;
     background: #9395d3;
@@ -86,9 +94,12 @@ p {
     }
 }
 /*btn-3*/
+.btn-3 {
+    background: #8b008b;
+}
+
 .btn-3:hover {
     animation: shake 2s ease-in-out 3;
-    background: #681d63;
 }
 
 /*btn-3 animation*/
