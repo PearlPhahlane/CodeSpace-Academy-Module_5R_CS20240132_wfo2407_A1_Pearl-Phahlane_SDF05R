@@ -35,7 +35,7 @@ p {
     width: 130px;
     height: 40px;
     color: #000;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -48,14 +48,19 @@ p {
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
-    outline: none;
-    transition: all 0.2s;
-    border-radius: 10px;
 }
 
 /* custom styles for btn-1, btn-2, and btn-3 */
 
-/*1*/
-.btn-1 {
-    
+/*btn-1*/
+button:hover {
+    background-image: linear-gradient(to right, #ffadad, #ffd6a5 20%, #fdffb6 40%, #9bf6ff 60%, #a0c4ff 80%, #bdb2ff 100%);
+    animation: dance 1s both;
+    transform: scale(1,1) translateY(2px);
+}
+
+@keyframes dance {
+    to {
+        background-position: 130px;
+    }
 }
