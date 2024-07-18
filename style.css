@@ -105,14 +105,14 @@ p {
 /*btn-3 animation*/
 @keyframes shake {
     0%, 100% {
-        transform: translateX(0); /* Start and end at the original position */
+        transform: translateX(0); 
     }
     10%, 30%, 50%, 70%, 90% {
-        transform: translateX(-10px); /* Move left by 10px */
-        background: #f6b9f3; /* Change background color to  */
+        transform: translateX(-10px); 
+        background: #f6b9f3; 
     }
     20%, 40%, 60%, 80% {
-        transform: translateX(10px); /* Move right by 10px */
-        background: #e070b2; /* Change background color to yellow */
+        transform: translateX(10px); 
+        background: #e070b2; 
     }
 }
