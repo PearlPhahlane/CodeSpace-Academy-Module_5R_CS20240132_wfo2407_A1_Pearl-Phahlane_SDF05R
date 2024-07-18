@@ -59,6 +59,7 @@ p {
     transform: scale(1,1) translateY(2px);
 }
 
+/*btn-1 animation*/
 @keyframes dance {
     from {
         background-position: 0;
@@ -69,3 +70,4 @@ p {
 }
 
 /*btn-2*/
+
